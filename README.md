@@ -35,34 +35,38 @@ Windows Users: Open the MSYS2 UCRT64 terminal.
 Linux/macOS Users: Open your standard terminal.
 
 Clone the repository 
-   ```bash
+   ```Bash
    git clone https://github.com/Sayak0504/Rubiks-Cube-Solver.git
    ```
 
 ```Bash
 
 cd /path/to/your/project/rubiks-cube-solving
-Create and enter a build directory. This keeps the compiled files separate from the source code.
 ```
+Create and enter a build directory. This keeps the compiled files separate from the source code.
+
 
 ```Bash
 
 mkdir build
 cd build
-Run CMake to generate the build files. This command points to the CMakeLists.txt file in the parent directory.
 ```
+Run CMake to generate the build files. This command points to the CMakeLists.txt file in the parent directory.
+
 
 ```Bash
 
 cmake ..
-Compile the project. If you are using the recommended MSYS2 setup, ninja will be used. Otherwise, make may be the default.
 ```
+Compile the project. If you are using the recommended MSYS2 setup, ninja will be used. Otherwise, make may be the default.
+
 
 ```Bash
 
 ninja
-(If ninja is not found, try make)
 ```
+(If ninja is not found, try make)
+
 
 2. Run the Solver
 After a successful compilation, an executable file will be created in your build directory.
