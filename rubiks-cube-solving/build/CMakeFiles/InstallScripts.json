@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/rubiks_cube_solver/rubiks-cube-solving/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
